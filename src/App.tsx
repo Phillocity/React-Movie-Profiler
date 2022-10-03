@@ -19,7 +19,6 @@ const App = () => {
 
   useEffect(() => {
     searchMovies("avengers");
-    console.log(searchTerm);
   }, []);
 
   return (
@@ -52,7 +51,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h2>There was no movies found</h2>
+          <h2>There was no movies found or too many results!</h2>
         </div>
       )}
     </div>
