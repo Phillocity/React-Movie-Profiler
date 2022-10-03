@@ -1,46 +1,17 @@
-# Getting Started with Create React App
+# Movie Profiler
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React frontend of a movie profiler that uses the [OMDB API](https://www.omdbapi.com/) to render data into individual movie profiles.
 
-## Available Scripts
+# Overview
+A practice project on React to familiarise useState and useEffect as well as JSX syntax. JSON information is rendered from the OMDB API and styled with SCSS. AJAX search to render as you type. The deployed project can be viewed on https://react-movie-profiler.herokuapp.com/.
 
-In the project directory, you can run:
+# Usage
 
-### `npm start`
+Install the project with github clone then cd into the folder to install then run npm run dev. This should open a server on localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  git clone https://github.com/Phillocity/React-Movie-Profiler.git
+  cd React-Movie-Profiler
+  npm i
+  npm run dev
+```
